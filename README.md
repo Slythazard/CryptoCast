@@ -7,8 +7,6 @@
 ### Completed Features
 
 - [x] **Price Watch**: Monitor real-time prices of various cryptocurrencies.
-- [x] **Login**: User authentication to allow personalized experiences and secure access to features.
-- [x] **Learning Portal**: A dedicated space for users to learn about cryptocurrencies and trading strategies.
 
 ### In Development
 
@@ -17,6 +15,8 @@
 - [ ] **Live News Display**: Real-time updates on news related to cryptocurrencies to keep users engaged and informed.
 - [ ] **Predictive Price Tool**: An advanced tool that utilizes machine learning algorithms to predict future cryptocurrency prices based on historical data.
 - [ ] **Search and Add Coin Feature**: Allow users to search for specific cryptocurrencies and add them to their watchlist for easy tracking.
+- [ ] **Login**: User authentication to allow personalized experiences and secure access to features.
+- [ ] **Learning Portal**: A dedicated space for users to learn about cryptocurrencies and trading strategies.
 
 
 ## Getting Started

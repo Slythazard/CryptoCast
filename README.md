@@ -55,4 +55,29 @@
     This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-    Thank you to the developers and contributors of the libraries and frameworks used in this project.       
+    Thank you to the developers and contributors of the libraries and frameworks used in this project.
+
+## Credits
+   ### Developed by: Slythazard 
+   ### Contact : shreshth.k.dev@gmail.com
+
+## Technologies Used:
+
+- [x] **Node.js** (JavaScript runtime environment)
+- [x] **Python** (Programming language)
+- [x] **python-socketio**
+- [x] **Socket.IO**
+- [x] **concept of Websockets, background Threads**
+- [x] **Flask (Web framework for Python)**
+- [x] **API used** - coinCap.io 
+
+## Future Technologies (Planned):
+
+- [ ] Machine Learning Libraries - (For price prediction tool)
+         - TensorFlow
+         - PyTorch etc.
+- [ ] Data Visualization Libraries - (For displaying insights)
+         - Matplotlib
+         - Plotly 
+- [ ] Authentication Libraries - (For user login feature)
+         -  Flask-Login

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/index.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main">
+        <nav class="main-nav">
+            <img src="{{ url_for('static', filename = 'IMG/Ellipse_logo_white.png') }}" class="logo-bg-0" alt="">
+            <img src="{{ url_for('static',filename='IMG/Ellipse_SearchBar_yellow.svg') }}" alt="" class="logo-bg-1" width="500px" height="500px">
+            <svg width="455" height="912" viewBox="0 0 455 912" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-bg-2">
+                <path d="M497.006 284.644C496.309 284.424 495.611 284.209 494.911 283.998L261.046 432.278C260.938 433 260.835 433.724 260.737 434.447C260.627 439.023 260.699 443.601 260.953 448.172L509.337 290.686C505.308 288.51 501.195 286.494 497.006 284.644ZM528.12 301.328L262.58 469.691C263.21 474.476 264.039 479.232 265.067 483.948L539.962 309.653C536.133 306.714 532.182 303.937 528.12 301.328ZM470.95 276.64C464.218 275.266 457.411 274.295 450.564 273.731L270.652 387.801C268.245 394.233 266.223 400.802 264.597 407.474L470.95 276.64ZM554.63 322.907L270.811 502.857C271.953 506.603 273.223 510.31 274.617 513.97C275.005 514.717 275.399 515.462 275.798 516.203L564.583 333.103C564.082 332.426 563.576 331.753 563.065 331.083C560.347 328.263 557.533 325.536 554.63 322.907ZM415.279 273.55C406.869 274.387 398.532 275.839 390.334 277.895C381.559 280.144 372.974 283.079 364.659 286.673C356.345 290.267 348.326 294.509 340.677 299.359C333.028 304.209 325.771 309.652 318.975 315.639C312.179 321.626 305.864 328.137 300.088 335.114C294.735 341.65 289.869 348.57 285.528 355.818L415.279 273.55ZM576.053 348.38L284.736 533.086C285.569 534.721 286.428 536.343 287.312 537.951C288.847 540.095 290.43 542.204 292.061 544.276L583.41 359.55C582.111 357.264 580.76 355.008 579.359 352.784C578.28 351.298 577.178 349.83 576.053 348.38ZM592.005 376.652L303.534 559.553C303.558 559.586 303.583 559.619 303.608 559.652C306.743 562.941 310.007 566.105 313.391 569.137L596.88 389.395C596.415 387.978 595.932 386.567 595.431 385.163C594.38 382.335 593.254 379.535 592.055 376.766C592.039 376.728 592.022 376.69 592.005 376.652ZM602.244 408.544L328.327 582.219C332.157 585.158 336.108 587.936 340.17 590.544L604.739 422.797C604.64 421.923 604.535 421.049 604.423 420.177C603.982 417.191 603.463 414.218 602.866 411.259C602.666 410.353 602.459 409.448 602.244 408.544ZM606.221 444.409L359.26 600.991C362.67 602.807 366.14 604.509 369.664 606.092C370.649 606.405 371.636 606.709 372.625 607.004L605.67 459.244C605.767 458.26 605.854 457.275 605.933 456.289C606.123 453.277 606.234 450.261 606.267 447.243C606.259 446.298 606.244 445.354 606.221 444.409ZM601.837 484.227L396.772 614.246C403.503 615.62 410.311 616.591 417.158 617.155L596.096 503.702C596.487 502.663 596.869 501.62 597.24 500.573C598.203 497.713 599.091 494.829 599.903 491.923C600.606 489.373 601.251 486.807 601.837 484.227ZM580.48 536.153L453.167 616.875C460.973 616.058 468.714 614.71 476.336 612.841C482.349 611.143 488.266 609.12 494.06 606.782L555.26 567.978C557.092 566.172 558.883 564.325 560.632 562.438C562.675 560.218 564.659 557.945 566.583 555.621C568.507 553.296 570.37 550.922 572.17 548.5C573.97 546.078 575.706 543.609 577.376 541.097C578.439 539.467 579.474 537.818 580.48 536.153Z" fill="#FF73DB"/>
+                </svg>
+            <div class="logo">
+                <a href="" rel="Home"><img src= "{{ url_for('static', filename='IMG/logo_text_2.svg') }}" alt="logo"></a>
+            </div>
+            <ul class="navigate">
+                <li class="Home">
+                    <a href="/watch" class="Home-a">Watch</a>
+                </li>
+                <li class="Predict">
+                    <a href="/predict" class="Home-a">Predict</a>
+                </li>
+                <li class="Learn">
+                    Learn
+                </li>
+            </ul>
+            <div class="explore">
+                <input type="text" placeholder="search"
+                id="search">
+                <img src="{{ url_for('static', filename='IMG/Notification_bell.svg') }}" alt="notification" width="30px" height="30px" class="notification">
+                <img src="{{ url_for('static', filename='IMG/profile.svg') }}" alt="profile" height="30px" width="30px">
+            </div>
+        </nav>
+        <section class="Hero-Header">
+            <p class="opening">WELCOME</p>
+            <div class="opening-sub"><div class="to">to</div><div class="crypt">CRYPT</div><div class="o">O</div><div class="cast">CAST</div></div>
+            <p class="explaining">where we decode the complexities of cryptocurrency. Through advanced analytics, Cryptocast delivers precise Bitcoin forecasts</p>
+            <button class="Register" type="button">
+                Register Now!!
+            </button>
+        </section>
+        <article class="homepage"></article>
+    </header>
+</body>
+</html>
